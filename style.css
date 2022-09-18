@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e2d3b;
+}
+
+header{
+    background-color: #2e3a46;
+    height: 100px;
+}
+
+#logo{
+    height: 90px;
+    padding: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.disc-card{
+    width: calc(98% / 5);
+}
